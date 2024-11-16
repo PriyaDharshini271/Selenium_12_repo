@@ -17,7 +17,7 @@ public class Tc_DWS_006_Test extends BaseClass {
 
 
 		@Test
-       public void clickonComputers()throws EncoderException {
+       public void clickonBooks()throws EncoderException {
     	   
 		 hp = new HomePage(driver);
 		 hp.getBooks().click();
