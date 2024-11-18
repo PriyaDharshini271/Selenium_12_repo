@@ -20,7 +20,7 @@ public class Tc_DWS_006_Test extends BaseClass {
        public void clickonBooks()throws EncoderException {
     	   
 		 hp = new HomePage(driver);
-		 hp.getBooks().click();
+		 hp.getBooks().click();//mathi oru muttal
 		
 		Assert.assertEquals(driver.getTitle(),elib.getString@DatapomExcel("computers",1,0), "cmputer page is not displayed");
 		test.log(Status.PASS,"compters page is displayed");
